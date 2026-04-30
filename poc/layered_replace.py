@@ -200,7 +200,7 @@ def main():
     ap.add_argument(
         "--unknown-policy",
         choices=["far", "near", "split"],
-        default="far",
+        default="near",
         help="how to treat the depth-discontinuity unknown band",
     )
     ap.add_argument("--bg", default="auto", help="'auto' or path to background image")
